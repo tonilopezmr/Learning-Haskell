@@ -1,0 +1,1 @@
+evenList = [ x | x <- [0..10], even x]  

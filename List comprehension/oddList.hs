@@ -1,0 +1,1 @@
+oddList = [x | x <- [1..10], odd x]
