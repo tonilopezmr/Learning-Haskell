@@ -1,0 +1,1 @@
+divisors xs = [x | x <- [0..xs], xs `div` x]
