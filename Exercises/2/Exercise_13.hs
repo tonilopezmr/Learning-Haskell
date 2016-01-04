@@ -1,0 +1,1 @@
+sum (filter even (map (^2) [1..10]))
