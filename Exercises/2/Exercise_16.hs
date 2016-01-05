@@ -1,2 +1,4 @@
-symmetric :: Tree a -> Tree a
-symmetric tree = 
+data Tree a = Leaf a | Branch (Tree a) (Tree a) deriving Show
+
+symmetric (Leaf x) = (Leaf x)
+symmetric (Branch a b) = (Branch (symmetric b)  (symmetric a))
